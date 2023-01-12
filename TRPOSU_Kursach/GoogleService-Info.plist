@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>342052223469-2nddqodqsd983gqjo9t6n0lhc15rcmjr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.342052223469-2nddqodqsd983gqjo9t6n0lhc15rcmjr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB2Tm_6h5lNCaSI6AIL7kKb0SGPyuvewbo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>342052223469</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.my.TRPOSU-Kursach</string>
+	<key>PROJECT_ID</key>
+	<string>booksgallery-3b9f2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>booksgallery-3b9f2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:342052223469:ios:2d9bbb64986cda2bee8fe4</string>
+</dict>
+</plist>
