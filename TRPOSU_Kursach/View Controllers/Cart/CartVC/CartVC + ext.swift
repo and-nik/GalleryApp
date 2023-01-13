@@ -8,6 +8,7 @@
 import UIKit
 import Firebase
 import FirebaseStorage
+import Firebase
 
 
 
@@ -358,7 +359,7 @@ class CartViewController : UIViewController
             self.infoImageView.isHidden = false
             
             self.infoImageView.image = UIImage(systemName: "person.fill.questionmark")
-            self.infoLabel.text = "Sig In to use cart and by some books."
+            self.infoLabel.text = "Sign In to use cart and by some books."
             
             self.tabBarController?.tabBar.items![1].badgeValue = nil
         }
