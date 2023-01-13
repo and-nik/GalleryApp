@@ -1,17 +1,14 @@
 //
-//  Model.swift
+//  File.swift
 //  TRPOSU_Kursach
 //
-//  Created by And Nik on 30.10.22.
+//  Created by And Nik on 13.01.23.
 //
 
+import Foundation
 import UIKit
 import Firebase
 import FirebaseStorage
-
-var description = "This amaizing book will give you amaizing expirience of book reading. Here must be some description of book, but i do not wont write this for evrey book in this arrya. Is a just some words, there doesent have any reason. Do not raed this text becouce it is just for fun. Hey, stop doing this. Oh... You sou persistent. I love you for this and i wont a child from you :3"
-
-var integer: Int = 1
 
 enum Sources
 {
@@ -102,79 +99,5 @@ enum Sources
     enum Colors
     {
         static var systemColor = UIColor.systemOrange
-    }
-}
-
-class User
-{
-    var name : String
-    var password : String
-    var email : String
-    var cart : [Bookg]?
-    
-    init(name: String, password: String, email: String, cart: [Bookg]? = nil)
-    {
-        self.name = name
-        self.password = password
-        self.email = email
-        self.cart = cart
-    }
-}
-
-var user = User(name: "", password: "", email: "")
-
-class Comment
-{
-    var date : Date
-    var title : String
-    var userName : String
-    var rate : Int
-    var comment : String
-    
-    init(date: Date, title: String, userName: String, rate: Int, comment: String)
-    {
-        self.date = date
-        self.title = title
-        self.userName = userName
-        self.rate = rate
-        self.comment = comment
-    }
-}
-
-class Bookg
-{
-    var bookId : String
-    var title : String
-    var price : Double
-    var author : String
-    var description : String
-    var count : Int
-    
-    var iamge : UIImage
-    
-    init(bookId: String, title: String, price: Double, author: String, description: String, image : UIImage, count : Int)
-    {
-        self.bookId = bookId
-        self.title = title
-        self.price = price
-        self.author = author
-        self.description = description
-        self.count = count
-        
-        self.iamge = image
-    }
-
-    
-
-}
-
-class GallerySectiong
-{
-    var sectionName = String()
-    var books = [Bookg]()
-    
-    init(sectionName: String)
-    {
-        self.sectionName = sectionName
     }
 }
